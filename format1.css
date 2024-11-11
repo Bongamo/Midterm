@@ -1,0 +1,127 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.parallax, .parallax-second {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.parallax {
+    background-image: url("student.png"), url("background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: left center, center;
+    background-size: contain, cover;
+}
+
+.parallax-second {
+    background-image: url("background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paralax-text, .paralax-text2 {
+    font-size: 3em;
+    color: #fff;
+    background-color: rgba(0, 160, 160, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content {
+    padding: 40px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.about-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.about-link {
+    color: #00a0a0;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #00a0a0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.about-link:hover {
+    background-color: #00a0a0;
+    color: white;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.project-links {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.project-links li {
+    margin: 0;
+}
+
+.project-links a:link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.project-links a:visited {
+    color: #666;
+    background-color: #f8f8f8;
+}
+
+.project-links a:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+    transform: translateY(-2px);
+    color: #00a0a0;
+}
+
+.project-links a:active {
+    background-color: #e0e0e0;
+    transform: translateY(0);
+    color: #0000FF;
+}

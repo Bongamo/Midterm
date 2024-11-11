@@ -1,0 +1,24 @@
+table, th, td {
+	border:1px solid red;
+}
+
+#cat {
+	background-color:red;
+	color:white;
+}
+
+.course {
+	color:red;
+}
+
+.students {
+	color:blue;
+}
+
+.platform {
+	color:green;
+}
+
+.paragraph {
+	color:brown;
+}
